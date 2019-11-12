@@ -13,3 +13,9 @@ console.log(html);
 
 container.innerHTML = html;  
 
+function alert(names) { 
+    for(var name of names)
+    alert("вы выбрали имя" + name);
+    
+}
+name.onclick = alert;
